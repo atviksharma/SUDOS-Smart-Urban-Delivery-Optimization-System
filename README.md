@@ -1,7 +1,6 @@
 # 🚀 SUDOS – Smart Urban Delivery Optimization System
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![DAA Course Project](https://img.shields.io/badge/DAA-Course%20Project-orange.svg)]()
 
 A comprehensive implementation of multiple **Design and Analysis of Algorithms (DAA)** paradigms applied to real-world urban delivery route optimization — inspired by platforms like Amazon, Swiggy, and Blinkit.
@@ -36,6 +35,13 @@ SUDOS/
 
 ---
 
+## ✨ Key Features
+
+- Multiple algorithm paradigms in one system
+- Real-world delivery optimization modeling
+- Performance benchmarking and visualization
+- Scalable design with fallback strategies
+
 ## 🧠 Algorithms Implemented
 
 | Paradigm | Algorithm | Complexity | Use Case |
@@ -53,12 +59,20 @@ SUDOS/
 
 ### 1. Clone & Install
 ```bash
-git clone https://github.com/yourusername/SUDOS.git
+git clone https://github.com/atviksharma/SUDOS-Smart-Urban-Delivery-Optimization-System.git
 cd SUDOS
 pip install -r requirements.txt
 ```
 
 ### 2. Run the Demo
+### ▶️ Running the Project
+
+This will:
+- Generate a sample city graph
+- Compute shortest paths using Dijkstra
+- Run TSP algorithms for route optimization
+- Assign delivery agents using Max-Flow
+
 ```bash
 python src/sudos.py
 ```
@@ -67,6 +81,19 @@ python src/sudos.py
 ```bash
 python src/visualize.py
 ```
+## 📷 Visual Outputs
+
+### City Graph
+outputs/city_graph.png
+
+### Algorithm Comparison
+outputs/algo_comparison.png
+
+### Agent Routes
+outputs/agent_routes.png
+
+### Scalability
+outputs/scalability.png
 
 ### 4. Run Tests
 ```bash
@@ -132,6 +159,12 @@ Ford-Fulkerson        | O(V · E)      | O(V+E)    | Yes (flow)
 
 ---
 
+## 📝 Code Documentation
+
+- All algorithms are implemented with detailed docstrings
+- Inline comments explain key steps like edge relaxation, DP transitions, and flow augmentation
+- Modular functions ensure readability and maintainability
+
 ## 📚 Viva Preparation
 
 **Q: Why is TSP NP-Hard?**  
@@ -149,12 +182,8 @@ A: We model Source → Agents → Zones → Sink with capacitated edges. Max-flo
 
 | Member | Contribution |
 |--------|-------------|
-| Member 1 | Dijkstra, Floyd-Warshall, Graph Construction |
-| Member 2 | Greedy TSP, Nearest Insertion, Visualization |
-| Member 3 | DP Bitmask TSP, Benchmarking, Report |
-| Member 4 | Max-Flow Assignment, Testing, Presentation |
+| Atvik Sharma (24BCT0025) | Graph modeling, Dijkstra’s algorithm, Floyd-Warshall implementation, and core system architecture |
+| Rohan Kumar (24BDS0463) | TSP algorithms (Greedy, Nearest Insertion, DP Bitmask), benchmarking, and performance analysis |
+| MD Rakhshan Saif (24BKT0164) | Max-Flow (Ford-Fulkerson) for agent assignment, visualization module, testing, and documentation |
 
 ---
-
-## 📄 License
-MIT License © 2025
