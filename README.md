@@ -84,16 +84,16 @@ python src/visualize.py
 ## 📷 Visual Outputs
 
 ### City Graph
-outputs/city_graph.png
+![City Graph](outputs/city_graph.png)
 
 ### Algorithm Comparison
-outputs/algo_comparison.png
+![Comparison](outputs/algo_comparison.png)
 
 ### Agent Routes
-outputs/agent_routes.png
+![Routes](outputs/agent_routes.png)
 
 ### Scalability
-outputs/scalability.png
+![Routes](outputs/scalability.png)
 
 ### 4. Run Tests
 ```bash
